@@ -8,6 +8,10 @@ include_once __DIR__ . '/classes/Food.php';
 include_once __DIR__ . '/classes/Games.php';
 include_once __DIR__ . '/classes/Kennels.php';
 include_once __DIR__ . '/classes/Leashes.php';
+include_once __DIR__ . '/traits/Dog.php';
+include_once __DIR__ . '/traits/Cat.php';
+include_once __DIR__ . '/traits/Turtle.php';
+
 
 $username		= $_POST['username']		?? '';
 $password		= $_POST['password']		?? '';
